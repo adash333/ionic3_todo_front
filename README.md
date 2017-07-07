@@ -1,26 +1,37 @@
-This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
+# Todo samples by Rails5 (API mode) and Ionic3.
 
-## How to use this template
+Rails5APIとionic3によるTodoアプリ の、 front-ionic3の方
 
-*This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/ionic-team/ionic2-app-base).
+詳細は以下
+http://twosquirrel.mints.ne.jp/?p=18681
 
-To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/ionic-team/ionic2-app-base).
+## Requirement
 
-### With the Ionic CLI:
+- Node.js
+- Ionic CLI
 
-Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
+## Installation
 
-```bash
-$ sudo npm install -g ionic cordova
-$ ionic start myTabs tabs
-```
+    $ git clone git@github.com:adash333/ionic3-http.git
+    $ cd ionic3-http
+    $ npm install @ionic/app-scripts@latest --save-dev
+    $ npm install
+    $ ionic serve
 
-Then, to run it, cd into `myTabs` and run:
+androidアプリの作成
 
-```bash
-$ ionic cordova platform add ios
-$ ionic cordova run ios
-```
+    $ ionic platform add android
+    $ ionic build android
 
-Substitute ios for android if not on a Mac.
+## Anything Else
 
+このコードは、以下のサイトのソースコードをIonic3で書き換えてみようと努力した結果です。  
+
+20161221  
+Rails 5 + Angular2 + TypeScript でTodoアプリを作った。  
+http://yasun.hatenablog.jp/entry/2016/12/21/235334
+
+
+## Author
+
+adash333
